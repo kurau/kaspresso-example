@@ -1,0 +1,53 @@
+{
+    "name": "test3",
+    "start": 1728451622574,
+    "stop": 1728451629505,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "b3ae78d7-c70a-4850-bc76-c63a6780d316",
+    "historyId": "5d6af7b61ab0b800be67aa522c16e0c0",
+    "fullName": "qa.guru.kaspresso.IncrementButtonTest.test3",
+    "labels": [
+        {
+            "name": "package",
+            "value": "qa.guru.kaspresso"
+        },
+        {
+            "name": "testClass",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test3"
+        },
+        {
+            "name": "suite",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(106)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

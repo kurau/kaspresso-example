@@ -1,0 +1,81 @@
+{
+    "name": "test3",
+    "start": 1728451626721,
+    "stop": 1728451626838,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Increase counter value to 2",
+            "start": 1728451626724,
+            "stop": 1728451626838,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "57489df3-dc7d-4eea-b43f-13892407accb-attachment.png",
+                    "name": "IncrementButtonTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "d0b1359f-4393-4eec-8ef5-ec8674175907",
+    "fullName": "qa.guru.kaspresso.IncrementButtonTest.test3",
+    "labels": [
+        {
+            "name": "package",
+            "value": "qa.guru.kaspresso"
+        },
+        {
+            "name": "testClass",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test3"
+        },
+        {
+            "name": "suite",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(106)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "113"
+        },
+        {
+            "name": "test",
+            "value": "first"
+        }
+    ]
+}

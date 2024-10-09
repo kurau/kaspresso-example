@@ -1,0 +1,29 @@
+--------- beginning of main
+10-09 10:27:03.375 23667 23681 I KASPRESSO: Logcat buffer may be dumped from 10-09 10:27:03.354
+10-09 10:27:03.702 23667 23681 I KASPRESSO: Starting video recording: Video_IncrementButtonTest.mp4
+10-09 10:27:03.702 23667 23681 I KASPRESSO: Waiting for 3000 ms
+10-09 10:27:03.703 23667 23813 D KASPRESSO: Display resolution: 1080x2400; supported codec resolution: 2048x2048
+10-09 10:27:03.704 23667 23813 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-09 10:27:06.707 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.707 23667 23681 I KASPRESSO: BEFORE TEST SECTION
+10-09 10:27:06.707 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.708 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.708 23667 23681 I KASPRESSO: TEST SECTION
+10-09 10:27:06.708 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.723 23667 23681 I KASPRESSO: ___________________________________________________________________________
+10-09 10:27:06.723 23667 23681 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest
+10-09 10:27:06.725 23667 23681 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest SUCCEED. It took 0 minutes, 0 seconds and 1 millis. 
+10-09 10:27:06.725 23667 23681 I KASPRESSO: ___________________________________________________________________________
+10-09 10:27:06.838 23667 23681 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/test3/IncrementButtonTest_step_1.png
+10-09 10:27:06.840 23667 23681 I KASPRESSO: ___________________________________________________________________________
+10-09 10:27:06.840 23667 23681 I KASPRESSO: TEST STEP: "2. Increase counter value to 3" in IncrementButtonTest
+10-09 10:27:06.841 23667 23681 I KASPRESSO: TEST STEP: "2. Increase counter value to 3" in IncrementButtonTest SUCCEED. It took 0 minutes, 0 seconds and 1 millis. 
+10-09 10:27:06.841 23667 23681 I KASPRESSO: ___________________________________________________________________________
+10-09 10:27:06.922 23667 23681 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/test3/IncrementButtonTest_step_2.png
+10-09 10:27:06.924 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.924 23667 23681 I KASPRESSO: AFTER TEST SECTION
+10-09 10:27:06.924 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.924 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.924 23667 23681 I KASPRESSO: TEST PASSED
+10-09 10:27:06.924 23667 23681 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:27:06.925 23667 23681 I KASPRESSO: Dump logcat buffer to /data/user/0/qa.guru.kaspresso/files/logcat/qa.guru.kaspresso.IncrementButtonTest/test3/TestLogcat.txt: logcat -b default -d -t "10-09 10:27:03.354" -s "KASPRESSO","KASPRESSO_TEST"

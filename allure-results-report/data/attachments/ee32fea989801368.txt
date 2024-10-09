@@ -1,0 +1,42 @@
+--------- beginning of main
+10-09 10:23:47.742 23088 23102 I KASPRESSO: Logcat buffer may be dumped from 10-09 10:23:47.701
+10-09 10:23:48.176 23088 23102 I KASPRESSO: Starting video recording: Video_IncrementButtonTest.mp4
+10-09 10:23:48.178 23088 23102 I KASPRESSO: Waiting for 3000 ms
+10-09 10:23:48.330 23088 23139 D KASPRESSO: Display resolution: 1080x2400; supported codec resolution: 2048x2048
+10-09 10:23:48.332 23088 23139 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-09 10:23:51.180 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:23:51.180 23088 23102 I KASPRESSO: BEFORE TEST SECTION
+10-09 10:23:51.180 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:23:51.181 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:23:51.181 23088 23102 I KASPRESSO: TEST SECTION
+10-09 10:23:51.181 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:23:51.183 23088 23102 I KASPRESSO: ___________________________________________________________________________
+10-09 10:23:51.183 23088 23102 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest
+10-09 10:23:51.360 23088 23088 I KASPRESSO: single click on MaterialButton(id=increment;text=Increment;)
+10-09 10:23:52.088 23088 23088 I KASPRESSO: single click on MaterialButton(id=increment;text=Increment;)
+10-09 10:23:53.017 23088 23102 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest SUCCEED. It took 0 minutes, 1 seconds and 834 millis. 
+10-09 10:23:53.017 23088 23102 I KASPRESSO: ___________________________________________________________________________
+10-09 10:23:53.339 23088 23102 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/IncrementButtonTest_step_1.png
+10-09 10:23:53.342 23088 23102 I KASPRESSO: ___________________________________________________________________________
+10-09 10:23:53.343 23088 23102 I KASPRESSO: TEST STEP: "2. Counter value should be 2" in IncrementButtonTest
+10-09 10:23:53.349 23088 23088 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Count: 1" on MaterialTextView(id=counter;text=Count: 2;)
+10-09 10:23:53.383 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of AssertionFailedError
+10-09 10:23:53.393 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of PerformException
+10-09 10:23:57.256 23088 23088 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Count: 1" on MaterialTextView(id=counter;text=Count: 2;)
+10-09 10:23:57.260 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of AssertionFailedError
+10-09 10:23:57.263 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of PerformException
+10-09 10:24:01.341 23088 23088 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Count: 1" on MaterialTextView(id=counter;text=Count: 2;)
+10-09 10:24:01.350 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of AssertionFailedError
+10-09 10:24:01.357 23088 23102 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131230854/qa.guru.kaspresso:id/counter>) because of PerformException
+10-09 10:24:04.932 23088 23102 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of AssertionFailedError
+10-09 10:24:04.942 23088 23102 I KASPRESSO: TEST STEP: "2. Counter value should be 2" in IncrementButtonTest FAILED. It took 0 minutes, 11 seconds and 593 millis. 
+10-09 10:24:04.943 23088 23102 I KASPRESSO: ___________________________________________________________________________
+10-09 10:24:05.057 23088 23102 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/IncrementButtonTest_step_2_failure_AssertionFailedError.png
+10-09 10:24:05.092 23088 23102 I KASPRESSO: View hierarchy dumped to /data/user/0/qa.guru.kaspresso/files/view_hierarchy/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/ViewHierarchy_MainTestSection_failure_AssertionFailedError.xml
+10-09 10:24:05.092 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:24:05.092 23088 23102 I KASPRESSO: AFTER TEST SECTION
+10-09 10:24:05.092 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:24:05.093 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:24:05.093 23088 23102 I KASPRESSO: TEST FAILED
+10-09 10:24:05.093 23088 23102 I KASPRESSO: ---------------------------------------------------------------------------
+10-09 10:24:05.094 23088 23102 I KASPRESSO: Dump logcat buffer to /data/user/0/qa.guru.kaspresso/files/logcat/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/TestLogcat.txt: logcat -b default -d -t "10-09 10:23:47.701" -s "KASPRESSO","KASPRESSO_TEST"
